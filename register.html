@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Daftrarkan Kost Anda</title>
+    <link rel="stylesheet" type="text/css" href="/Semantic/semantic.css">
+    <script src="/Semantic/semantic.js"></script>
+    <style media="screen">
+    body{
+      background-image: url("/KMS/Res/index.jpg");
+      background-position: center;
+    }
+    </style>
+  </head>
+  <body>
+        <div class="ui container">
+                  <div class="twelve wide column" style="padding:50px; height:400px;">
+                    <form class="ui form" id="signup" action="src/register.php" method="post">
+                      <div class="row">
+                          <div class="field five wide column">
+                            <label for="">Username</label>
+                            <input type="text" name="username" placeholder="Username">
+                          </div>
+                      </div>
+                      <div class="row">
+                        <div class="two fields">
+                          <div class="field six wide column">
+                            <label for="">Nama Depan</label>
+                            <input type="text" name="fname" placeholder="Nama Depan">
+                          </div>
+                            <div class="field six wide column">
+                                <label for="">Nama Belakang</label>
+                                <input type="text" name="lname" placeholder="Nama Belakang">
+                              </div>
+                          </div>
+                        </div>
+                      <div class="row">
+                        <div class="two fields">
+                          <div class="field six wide column">
+                            <label for="">Password</label>
+                            <input type="password" name="password" placeholder="Password">
+                          </div>
+                            <div class="field six wide column">
+                                <label for="">Konfirmasi Password</label>
+                                <input type="password" name="cpassword" placeholder="Konfirmasi Password">
+                              </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="two fields">
+                            <div class="field two wide column">
+                              <label for="">Jenis Pengenal</label>
+                              <input type="text" name="jenis_pengenal" placeholder="Jenis Pengenal">
+                            </div>
+                            <div class="field four wide column">
+                              <label for="">Nomor Pengenal</label>
+                              <input type="text" name="no_pengenal" placeholder="Nomor Pengenal">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="field six wide column">
+                          <label for="">Nomor Telefon</label>
+                          <input type="text" name="no_telfon" placeholder="Nomor Telepon">
+                        </div>
+                        <div class="row">
+                          <div class="field six wide column">
+                            <label for="">Alamat</label>
+                            <input type="text" name="alamat" placeholder="Alamat">
+                          </div>
+                        </div>
+                        <div class="field six wide column">
+                          <label for="">Pekerjaan</label>
+                          <input type="text" name="pekerjaan" placeholder="Pekerjaan">
+                        </div>
+                          <div class="row">
+                            <label for="  "></label>
+                            <button class="ui blue button" type="submit" name="submit">Submit</button>
+                          </div>
+                      </div>
+                    </form>
+                    </div>
+        </div>
+  </body>
+</html>
